@@ -49,7 +49,7 @@ h2 {
 
 section {
   position: relative;
-  width: 90%;
+  width: 100%;
   margin: auto;
 }
 
@@ -67,7 +67,7 @@ div {
   width: 90%;
   margin: auto;
   padding: 45px 20px 10px 10px;
-  border: 1px solid black;
+  border: 3px solid black;
 }
 
 p {
@@ -82,9 +82,15 @@ p {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+
+  body {
+    margin: 0 20px;
+  }
+  
   article {
     float: left;
   }
+
   #first, #second {
     width: 50%;
     margin: 0;
