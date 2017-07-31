@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+  background-color: #FCF9F9;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  position: relative;
+  text-align: center;
+  margin: 20px auto;
+  width: 90%;
+  font-size: 3em;
+}
+
+h2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 1px solid black;
+  padding: 5px;
+  color: white;
+}
+
+#chicken {
+  background: #0E6251;
+}
+
+#beef {
+  background: #FDF2E9;
+  color: #2980B9;
+}
+
+#sushi {
+  background: #AED6F1;
+}
+
+#first div, #first p {
+  background: #F7A0A0;
+}
+
+#second div, #second p {
+  background: #D1F2EB;
+}
+
+#third div, #third p {
+  background: #8E44AD;
+}
+
+section {
+  position: relative;
+  width: 90%;
+  margin: auto;
+}
+
+article {
+  position: relative;
+  width: 100%;
+  margin: 10px auto;
+  text-align: center;
+  font-size: 1em;
+  font-family: sans-serif;
+}
+
+div {
+  position: relative;
+  width: 90%;
+  margin: auto;
+  padding: 45px 20px 10px 10px;
+  border: 1px solid black;
+}
+
+p {
+  padding: 5px;
+}
+
+@media (min-width: 992px) {
+  article {
+    float: left;
+    width: 33%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  article {
+    float: left;
+  }
+  #first, #second {
+    width: 50%;
+    margin: 0;
+  }
+
+  #first div {
+    position: relative;
+    margin: auto;
+    width: 98%;
+    margin-left: 0;
+  }
+
+  #second div {
+    position: relative;
+    margin-right: 0;
+    width: 98%;
+  }
+
+  #third {
+    clear: left;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+  }
+
+  #third div {
+    width: 100%;
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  article {
+    margin-bottom: 20px;
+  }
+}
