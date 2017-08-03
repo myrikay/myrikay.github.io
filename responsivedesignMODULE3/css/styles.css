@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+.content {
+  padding: 15px;
+  border: 1px solid black;
+  background: #727E99;
+  color: #FE9DAD;
+}
+
+#navAll {
+  background: #FB8D9F;
+}
+
+.allContent {
+  height: 1000px;
+}
+
+@media (min-width: 768px) and  (max-width: 991px) {
+  #sushiBox {
+    margin-top: 30px;
+  }
+}
